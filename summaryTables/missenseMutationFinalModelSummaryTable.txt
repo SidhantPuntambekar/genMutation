@@ -1,0 +1,24 @@
+Missense Mutation Model Training Transcription Variants
+
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:          logistic_freq   No. Observations:             34134024
+Model:                            GLM   Df Residuals:                 34134016
+Model Family:                Binomial   Df Model:                            7
+Link Function:                  logit   Scale:                             1.0
+Method:                          IRLS   Log-Likelihood:            -7.9317e+06
+Date:                Wed, 14 Jul 2021   Deviance:                   1.5863e+07
+Time:                        21:15:19   Pearson chi2:                 3.41e+07
+No. Iterations:                    13                                         
+========================================================================================
+                           coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept                0.5641      0.011     49.842      0.000       0.542       0.586
+mu                       0.0117      0.009      1.301      0.193      -0.006       0.029
+log_mu                   2.9992      0.017    175.137      0.000       2.966       3.033
+log_mu_squared           0.2395      0.007     35.611      0.000       0.226       0.253
+GIAB                     0.0397      0.002     20.174      0.000       0.036       0.044
+CpG_context             -0.0661      0.005    -12.065      0.000      -0.077      -0.055
+GIAB_CpG_Interaction    -0.1193      0.007    -16.979      0.000      -0.133      -0.106
+median                   0.0010   3.13e-05     30.561      0.000       0.001       0.001
+========================================================================================

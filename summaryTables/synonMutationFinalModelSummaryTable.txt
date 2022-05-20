@@ -1,0 +1,24 @@
+Synonymous Mutation Model Training Transcription Variants
+
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:          logistic_freq   No. Observations:             14216462
+Model:                            GLM   Df Residuals:                 14216454
+Model Family:                Binomial   Df Model:                            7
+Link Function:                  logit   Scale:                             1.0
+Method:                          IRLS   Log-Likelihood:            -4.2386e+06
+Date:                Thu, 15 Jul 2021   Deviance:                   8.4771e+06
+Time:                        12:10:23   Pearson chi2:                 1.42e+07
+No. Iterations:                   100                                         
+========================================================================================
+                           coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept                0.1184      0.018      6.763      0.000       0.084       0.153
+mu                       0.8243      0.014     58.599      0.000       0.797       0.852
+log_mu                   1.9851      0.026     75.117      0.000       1.933       2.037
+log_mu_squared          -0.1254      0.010    -12.223      0.000      -0.146      -0.105
+GIAB                     0.0365      0.003     14.313      0.000       0.032       0.041
+CpG_context              0.0065      0.005      1.187      0.235      -0.004       0.017
+GIAB_CpG_Interaction    -0.2032      0.008    -24.467      0.000      -0.219      -0.187
+median                   0.0006   4.14e-05     14.144      0.000       0.001       0.001
+========================================================================================
